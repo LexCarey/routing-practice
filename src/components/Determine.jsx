@@ -9,7 +9,7 @@ const Determine = () => {
                 isNaN(key)?
                 <h1 style={{color: color, backgroundColor: background}} >{"The word is: " + key}</h1>
                 :
-                <h1>{"The number is: " + key}</h1>
+                <h1 style={{color: color, backgroundColor: background}} >{"The number is: " + key}</h1>
             }
         </div>
     )
